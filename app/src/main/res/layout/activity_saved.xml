@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ad_main">
+
+            <com.google.android.exoplayer2.ui.AspectRatioFrameLayout
+                android:id="@+id/aspectFrameRatio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottamAds"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/black">
+
+                <com.google.android.exoplayer2.ui.PlayerView
+                    android:id="@+id/exo_player_video_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:controller_layout_id="@layout/exo_playback_control_view"
+                    app:show_buffering="when_playing"
+                    app:use_controller="true" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar_exoplayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:theme="@style/AppTheme.ProgressBar"
+                    android:visibility="gone" />
+
+            </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40ssp"
+                android:background="@drawable/transparent30">
+
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:padding="@dimen/_8ssp"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/white" />
+
+            </RelativeLayout>
+            o
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bottamAds"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_16ssp"
+                android:layout_marginBottom="@dimen/_16ssp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16ssp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/whatsapp"
+                        android:layout_width="@dimen/_35ssp"
+                        android:layout_height="@dimen/_35ssp"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground"
+                        android:src="@drawable/ic_wp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16ssp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/insta"
+                        android:layout_width="@dimen/_35ssp"
+                        android:layout_height="@dimen/_35ssp"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground"
+                        android:src="@drawable/ic_insta" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16ssp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/more"
+                        android:layout_width="@dimen/_35ssp"
+                        android:layout_height="@dimen/_35ssp"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground"
+                        android:src="@drawable/ic_more" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</layout>

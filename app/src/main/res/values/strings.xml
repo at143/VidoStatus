@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- TODO Change App Name From here-->
+    <string name="app_name">Nunc_Video_App</string>
+    <string name="share_txt">Create Video Like this, Download VidoStatus https://play.google.com/store/apps/details?id=</string>
+
+    <!--TODO : Enter your Admob App Id here-->
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="share_app">Download App Now \n https://play.google.com/store/apps/details?id=</string>
+    <string name="share_quote">Create Quote Like this, Download Vedo App https://play.google.com/store/apps/details?id=</string>
+
+    <string name="type_your_prompt">Type Your Prompt...</string>
+    <string name="select_aspect_ratio">Select Aspect Ratio</string>
+    <string name="select_art_style">Select Art Style</string>
+    <string name="see_the_magic">See the Magic</string>
+
+    <!--ERRORS-->
+    <string name="mime_error">It only supports m3u files for now.</string>
+    <string name="error_file_read">file read error: %d</string>
+    <string name="error_file_read_exp">File read error please check m3u file</string>
+    <string name="error_save_list">Error writing list to local</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="from_data">Title Demo</string>
+    <string name="text_primary">Description Demo</string>
+    <string name="text_secondary">Tag Demo...</string>
+    <!--ERRORS-->
+
+
+</resources>

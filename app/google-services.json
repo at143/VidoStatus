@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "856209801057",
+    "project_id": "projects-488d4",
+    "storage_bucket": "projects-488d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856209801057:android:7b32f7cff3633bd087cf20",
+        "android_client_info": {
+          "package_name": "com.growthskyinfotech.gsinstastory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhcfXjluUXKyiad6UMl6UOEsWmATH1R4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856209801057:android:934031116275e11a87cf20",
+        "android_client_info": {
+          "package_name": "com.growthskyinfotech.vidostatus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhcfXjluUXKyiad6UMl6UOEsWmATH1R4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

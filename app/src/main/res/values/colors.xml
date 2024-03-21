@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6364f2</color>
+    <color name="colorPrimaryDark">#6364f2</color>
+    <color name="colorAccent">#6364f2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transprent">#00000000</color>
+    <color name="black30">#757474</color>
+    <color name="white30">#E7E5E5</color>
+    <color name="black90">#A7A7A7</color>
+    <color name="white10">#dddddd</color>
+    <color name="colorQuotes">#ba1ced</color>
+
+    <color name="bg_screen">#F9F9F9</color>
+    <color name="row_activated">#e0e0e0</color>
+
+
+
+
+
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+
+    <color name="colorLight">#cff5bc</color>
+    <color name="colorRed">#e70004</color>
+
+</resources>

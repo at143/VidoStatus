@@ -1,0 +1,116 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.StatusBarIconBlack" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#F3F3F3</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+
+    <style name="GreenProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/green_progress_bar</item>
+    </style>
+    <style name="bottom_tab_text" parent="@style/TextAppearance.Design.Tab">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/googlesans_bold</item>
+    </style>
+
+
+    <style name="DrawerItemStyle">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:paddingLeft">38dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingRight">38dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="shadowText">
+        <item name="android:shadowColor">#806d5cf1</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="DrawerItemTextStyle" parent="@style/shadowText">
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/googlesans_bold</item>
+    </style>
+
+    <style name="Theme.Rating.PH" parent="@style/Theme.AppCompat.Light">
+        <item name="colorAccent">#dddddd</item>
+    </style>
+
+    <style name="RatingBar" parent="@style/Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.ProgressBar">
+
+
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">#ffcc66</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Ad</item>
+        <item name="android:height">15dp</item>
+        <item name="android:width">15dp</item>
+    </style>
+
+    <style name="layout.video.lin" parent="@style/layoutHeightWidth">
+        <item name="android:orientation">@null</item>
+    </style>
+
+    <style name="layoutHeightWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="AppTheme.StatusBarBgBlack" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#F3F3F3</item>
+        <item name="android:statusBarColor">#000000</item>
+
+    </style>
+
+
+    <color name="textColor">#021546</color>
+
+</resources>
